@@ -1,6 +1,8 @@
 
 # VINS IMU filter
 
+THIS REPOSITORY IS FOR RESEARCH PURPOSES. WE AIM TO USE IT WITH ROS2 HUMBLE, SO THE MIGRATION OF THE CODE IS STILL TO BE DONE.
+
 Provides filtering of IMU data to be used in VIO/VINS. Provides Butterworth low-pass filter and notch filters, configured separately for accelerometer and gyroscope data. Provides joining of separate accelerometer and gyroscope messages in case of the RealSense T256 IMU by copying the latest accelerometer message.
 
 ## Usage
